@@ -1,0 +1,67 @@
+* {
+  border: 3px solid red;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-1 {
+}
+
+.header-list {
+  position: relative;
+  left: 236px;
+  top: 10px;
+}
+
+ul > li {
+  padding: 20px;
+  border: 3px solid black;
+}
+
+li {
+  display: inline;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 200%;
+  margin-top: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.about-me {
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: nowrap;
+  padding: 20px 10px 10px 10px;
+}
+
+.about-me-sidebar {
+  font-size: 200%;
+  width: 20%;
+  border-right: 3px solid black;
+  text-align: center;
+}
+
+.about-me-paragraph {
+  width: 80%;
+  font-size: 24px;
+}
+
+.about-me-paragraph p {
+  padding-left: 10px;
+}
