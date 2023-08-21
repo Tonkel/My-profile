@@ -90,9 +90,12 @@ main {
 /* customizes my work sidebar */
 .my-work-sidebar {
   font-size: 200%;
+  display: flex;
   width: 20%;
   border-right: 3px solid black;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 /* makes the work container flex */
 .work {
@@ -102,8 +105,32 @@ main {
 }
 
 #work-1 {
+  display: flex;
   width: 80%;
-  height: 500%;
+  height: 200%;
   border: 5px solid aqua;
   margin: 20px;
+  align-items: center;
+  background-image: url("https://tandfbis.s3-us-west-2.amazonaws.com/rt-files/Faculty/Laura+Maisey/10+tips+for+successful+studying+3+OP.jpg");
+}
+
+#work-2 {
+  display: flex;
+  align-items: center;
+  width: 38%;
+  height: 100%;
+  border: 5px solid aqua;
+  margin: 20px;
+  background-image: url("https://a.cdn-hotels.com/gdcs/production9/d1032/e21751d2-bf2c-4bfe-ba26-846a5d5d1c27.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+  background-size: auto 630px;
+}
+
+#work-1-description {
+  padding: 30px;
+  background-color: aqua;
+}
+
+#work-2-description {
+  padding: 30px;
+  background-color: aqua;
 }
