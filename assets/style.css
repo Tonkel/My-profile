@@ -2,7 +2,7 @@
   border: 3px solid red;
   font-size: 16px;
 }
-
+/* styles header and puts bottom border on */
 header {
   display: flex;
   flex-direction: row;
@@ -14,29 +14,29 @@ header {
   border-bottom: 10px solid aqua;
 }
 
+/* sets header image to fit screen */
 .header-image img {
   width: 100%;
   height: 200px;
 }
 
 .header-list {
-  /* position: relative; */
-  /* left: 236px; */
-  /* top: 10px; */
   margin-right: 10px;
 }
 
+/* styles list */
 ul > li {
   padding: 15px;
   border: 3px solid black;
   background-color: aqua;
+  border-radius: 5px;
 }
 
 li {
   display: inline;
 }
 
-h1 {
+.header-1 h1 {
   padding: 10px;
   font-size: 200%;
   margin-top: 10px;
@@ -45,8 +45,10 @@ h1 {
   border: 3px solid black;
 }
 
-h2 {
-  margin-top: 20px;
+main {
+  display: flex;
+  flex-flow: column wrap;
+  height: 600px;
 }
 
 .about-me {
@@ -57,12 +59,20 @@ h2 {
 }
 
 .about-me-sidebar {
+  display: flex;
   font-size: 200%;
   width: 20%;
   border-right: 3px solid black;
   text-align: center;
+  justify-content: center;
 }
-
+/* Aligns text with center of main paragraph */
+.about-me-sidebar h2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* some paragrah design */
 .about-me-paragraph {
   width: 80%;
   font-size: 24px;
@@ -70,4 +80,30 @@ h2 {
 
 .about-me-paragraph p {
   padding-left: 10px;
+}
+/* makes my-work container flex */
+.my-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+/* customizes my work sidebar */
+.my-work-sidebar {
+  font-size: 200%;
+  width: 20%;
+  border-right: 3px solid black;
+  text-align: center;
+}
+/* makes the work container flex */
+.work {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+#work-1 {
+  width: 80%;
+  height: 500%;
+  border: 5px solid aqua;
+  margin: 20px;
 }

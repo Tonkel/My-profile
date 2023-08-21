@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- breaking my header into two divs so they can flex within the header container -->
     <header>
       <div class="header-1">
         <h1>Will Tonkel's Profile</h1>
@@ -22,28 +23,55 @@
         </ul>
       </div>
     </header>
-
+    <!-- header image with alt attribute -->
     <div class="header-image">
       <img
         src="https://media.istockphoto.com/id/1287021364/photo/wide-angle-blue-celebration-bokeh-background.webp?b=1&s=170667a&w=0&k=20&c=SLOK2idjHdYVZFB14wbWWjh-LvGv7biFyrSyUWBqmLU="
         alt="wide image of bubbles with a blue background"
       />
     </div>
+    <!-- first section with about me about-me-paragraph -->
+    <main>
+      <section class="about-me">
+        <div class="about-me-sidebar">
+          <h2>About me</h2>
+        </div>
 
-    <section class="about-me">
-      <div class="about-me-sidebar">
-        <h2>About me</h2>
-      </div>
+        <div class="about-me-paragraph">
+          <p>
+            Hi, my name is Will Tonkel. I started my coding journey at 16,
+            teaching myself python in order to create bots that would track
+            stock volume and stability in order to assist in my day trading. I
+            have now learned HTML, CSS, and Javascript and am excited to move
+            forward in this industry.
+          </p>
+        </div>
+      </section>
+      <!-- section with my work sidebar, and then boxes displaying my work to the right -->
+      <section class="my-work">
+        <div class="my-work-sidebar">
+          <h2>My Work</h2>
+        </div>
+        <section class="work">
+          <div id="work-1">
+            <div id="work-1-description">
+              <h2>description</h2>
+            </div>
+          </div>
 
-      <div class="about-me-paragraph">
-        <p>
-          Hi, my name is Will Tonkel. I started my coding journey at 16,
-          teaching myself python in order to create bots that would track stock
-          volume and stability in order to assist in my day trading. I have now
-          learned HTML, CSS, and Javascript and am excited to move forward in
-          this industry.
-        </p>
-      </div>
-    </section>
+          <div id="work-2">
+            <div id="work-1-description">
+              <h2>description</h2>
+            </div>
+          </div>
+
+          <div id="work-2">
+            <div id="work-2-description">
+              <h2>description</h2>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
