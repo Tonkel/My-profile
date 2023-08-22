@@ -6,5 +6,5 @@ Once you have my profile page open you can navigate it by clicking the buttons o
 
 You can see another webpage I deployed by clicking on the large picture in the "my work" section.
 
-##Authors
+## Authors
 Will Tonkel
