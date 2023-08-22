@@ -32,6 +32,10 @@ header {
   border-radius: 5px;
 }
 
+#header-list > li:hover {
+  opacity: 0.5;
+}
+
 li {
   display: inline;
 }
@@ -82,7 +86,7 @@ main {
   padding-left: 10px;
 }
 /* makes my-work container flex */
-.my-work {
+#my-work {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -108,8 +112,8 @@ main {
 /* customizes work-1 and adds background image */
 #work-1 {
   display: flex;
-  width: 80%;
-  height: 200%;
+  width: 800px;
+  height: 300px;
   border: 5px solid aqua;
   margin: 20px;
   align-items: center;
@@ -162,4 +166,12 @@ footer {
 #footer-list > li {
   padding: 20px;
   color: aqua;
+}
+
+/* removes underline from link and styles it */
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: black;
 }
