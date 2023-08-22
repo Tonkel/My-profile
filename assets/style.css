@@ -175,3 +175,13 @@ a:hover {
   text-decoration: none;
   color: black;
 }
+
+/* removes underline from link and styles it */
+#github-link:link,
+#github-link:visited,
+#github-link:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* sorry I didnt have time to make it look good on mobile :(*/
